@@ -46,6 +46,7 @@ function resizeFunction(props){
     })
     console.log(props);
     return props;
+}
 //=======
 document.onload().ready(function(response){
     if(response == null){
