@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+//Updated upstream
 document.onload().ready(function(response){
     if(response == null){
         console.log(error);
@@ -46,7 +46,7 @@ function resizeFunction(props){
     })
     console.log(props);
     return props;
-=======
+//=======
 document.onload().ready(function(response){
     if(response == null){
         console.log(error);
@@ -94,5 +94,5 @@ function resizeFunction(props){
     })
     console.log(props);
     return props;
->>>>>>> Stashed changes
+//>>>>>>> Stashed changes
 }
