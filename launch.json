@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "http://localhost:4200",
+            "program": "http://localhost:4200"
         }
     ]
 }

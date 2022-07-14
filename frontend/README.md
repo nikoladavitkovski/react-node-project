@@ -8,4 +8,8 @@
 //When the PostMan is opened, the JSON object is checked
 //NodeJS and Express are important components of the Frontend development
 //PostMan is used for checking the Front-end code
+<<<<<<< Updated upstream
 //Part of the process is making the application active
+=======
+//Part of the process is making the application active
+>>>>>>> Stashed changes
