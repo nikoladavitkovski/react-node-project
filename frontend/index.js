@@ -30,3 +30,19 @@ document.addEventListener(function(response){
     console.log(response);
 })
 
+function resizeFunction(props){
+    this.props = props;
+    DOMParser.Exception(props);
+    DOM.innerText = "Graphical Usage of components: \n React(for install of Babel FrameWork) \n NodeJS(for slight calculation of JSON object)";
+    props => (resolve,reject) == this.onload.document(function(){
+        message = "The component message for downloading the Express framework is simply a Promise function"
+        fetch(document.addEventListener(message).log = "The message displayed in the box displays: {message} is available at the command line"
+        ).then(function(response){
+            console.log(response);
+        }).catch(function(error){
+            console.log(error);
+        })
+    })
+    console.log(props);
+    return props;
+}
