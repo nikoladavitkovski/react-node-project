@@ -77,7 +77,7 @@ document.addEventListener(function(response){
             console.log(error);
         })
     }, timeout),
-    console.log(response);
+    console.log(respons1e);
 })
 
 function resizeFunction(props){

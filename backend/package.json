@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "<<<<<<< Updated upstream\r #Also, it is recommendable to have: Express and Package(JSON object storage in a database)\r =======\r #Also, it is recommendable to have: Express and Package(JSON object storage in a database)\r >>>>>>> Stashed changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "request": "^2.88.2"
+  }
+}
