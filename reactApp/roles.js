@@ -3,6 +3,7 @@ import React from "react";
 import Classprops from "./Classprops";
 
 const request = require('request');
+const Model = mongoose.model('Test', schema);
 const Playlists = require('./models/playlists');
 const app = localhost('3000');
 const Playquery = require('./models/players');
