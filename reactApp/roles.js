@@ -14,6 +14,23 @@ const Users = require('./models/users');
 var client_id = 'e64abb715a07490c804a9cb61e08b50d';
 var client_secret = '8ddd836a6d9443508394df5e28638cbf';
 var access_token = '';
+var params = request;
+params.length({
+    players,
+    users,
+    playlists,
+    albums,
+    playquery,
+    Playlist,
+    getPlayList,
+    getAlbums,
+    getPlaylists,
+    getUsers,
+    getPlayQueries,
+    getCategories,
+    getPlayersUsers,
+    getPlayqueries
+});
 const express = require('express');
 
 var authOptions = {
@@ -201,7 +218,7 @@ request.post(authOptions, function(error, response, body){
         }
 
         var authOptions = {
-            'Authorization' : 'Basic' + new Bearer('client_id' + 'client_token')
+            'Authorization' : 'Basic' + new Bearer('client_id' + 'client_schema')
         }
     }
     console.log("error", response);

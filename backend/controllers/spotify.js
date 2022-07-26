@@ -87,5 +87,10 @@ const getCategories = (req, res) => {
 
   module.exports = {
     getCategories,
-    getPlayList
+    getPlayList,
+    getAlbums,
+    getPlayQueries,
+    getUsers,
+    getPlayersUsers,
+    getPlayers
   }
