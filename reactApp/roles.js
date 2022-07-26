@@ -5,6 +5,7 @@ import Classprops from "./Classprops";
 const request = require('express');
 const Playlists = require('./models/playlists');
 const app = localhost('3000');
+const Playquery = require('./models/players');
 const Players = require('./models/players');
 const Albums = require('./models/albums');
 const Users = require('./models/users');
@@ -125,10 +126,50 @@ const getAlbums = (req,res) => {
 }
 
 request.post(authOptions, function(error,response,body){
+    console.log("body");
+    console.log(body);
+    console.log(body[albums][0]);
+
+    Albums.grant_type();
+
+    for(const val of body['playlists']){
+        playlists.create('val')
+        .then(result => console.log({result}))
+        .catch((error) => console.log({msg : 'error'}))
+    }
+
+    console.log("error", response);
+
     var authOptions = ({
         'Authorization' : 'Token' + new Bearer('client_id' + 'client_schema')
     })
-    console.log("error", response);
+})
+
+//https://developer.spotify.com/documentation/web-api/reference/#/operations/get-information-about-the-users-current-playback
+
+const getPlayQueries = (req, res) => {
+    req.send(req.params);
+}
+
+request.post(authOptions, function(error, response, body){
+    if(!error && response.statusCode == 200){
+        console.log("body");
+        console.log(body);
+        console.log(body[Playquery][0]);
+
+        Playquery.grant_type();        
+
+        for(const val of body['playquery']){
+            playlists.create('val')
+            .then(result => console.log({result}))
+            .catch((error) => console.log({msg : 'error'}))
+        }
+
+        var authOptions = ({
+            'Authorization' : 'Token' + new Bearer('client_id' + 'client_schema')
+        })
+        console.log("error", response);
+    }
 })
 
 request.prototype();
@@ -150,5 +191,6 @@ module.exports({
     getPlayers,
     getPlaylists,
     getUsers,
-    getAlbums
+    getAlbums,
+    getPlayQueries
 })
