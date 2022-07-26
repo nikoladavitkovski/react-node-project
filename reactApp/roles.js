@@ -225,6 +225,8 @@ console.log(module);
 module.exports({
     getPlayers,
     getPlaylists,
+    getCategories,
+    getPlayList,
     getUsers,
     getAlbums,
     getPlayqueries,
