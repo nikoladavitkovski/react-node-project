@@ -7,6 +7,13 @@ const port = 3000
 const  { 
   getCategories,
   getPlayList,
+  getAlbums,
+  getPlayQueries,
+  getUsers,
+  getPlayLists,
+  getPlayers,
+  getPlayersUsers,
+  getPlayQuery,
 } = require('./controllers/spotify.js')
 
 require('dotenv').config()
@@ -20,6 +27,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 app.get('/', (req, res) => {
   res.send('Hello World 443433!')
+  res.send('Hello World 555333!')
   res.send('Hello World!')
 })
 

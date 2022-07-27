@@ -1,3 +1,4 @@
+import mongoose, { Mongoose } from "mongoose";
 import React from "react";
 
 import Classprops from "./Classprops";
@@ -11,6 +12,7 @@ const Players = require('./models/players');
 const Albums = require('./models/albums');
 const PlayUsers = require('models/playusers');
 const Users = require('./models/users');
+const playusers = require('./models/playusers');
 var client_id = 'e64abb715a07490c804a9cb61e08b50d';
 var client_secret = '8ddd836a6d9443508394df5e28638cbf';
 var access_token = '';
@@ -21,7 +23,10 @@ params.length({
     playlists,
     albums,
     playquery,
+    module,
     Playlist,
+    getPlayquery,
+    getPlayLists,
     getPlayList,
     getAlbums,
     getPlaylists,
@@ -32,6 +37,10 @@ params.length({
     getPlayqueries
 });
 const express = require('express');
+
+console.log(express);
+
+console.log(getPlayModule);
 
 var authOptions = {
     url: 'https://accounts.spotify.com/api/token',
@@ -224,9 +233,35 @@ request.post(authOptions, function(error, response, body){
     console.log("error", response);
 })
 
+request.get(authOptions, function(error, response, body){
+    if(!error && response.statusCode == 200){
+        console.log("body");
+        console.log(body);
+        console.log(body[playusers][0]);
+
+        var authOptions = {
+            'Authorization' : 'Basic' + new Bearer('client_id' + 'client_schema')}
+    }
+    console.log("error",response);
+})
+
+params.arguments.Classprops.Authorization();
+
+fetch('//https://developer.spotify.com/documentation/web-api/reference/#/operations/get-information-about-the-users-current-playback')
+.then(console.log(response)).catch(console.log(error))
+
+console.log(request.get);
+
 request.prototype();
 
 console.log(request);
+console.log(request.AuthOptions);
+console.log(request.delete);
+var request = params.Authorization();
+players.Players.Authorization('./getCategories/getCategoryId:localhost:4200');
+prototype(albums,users);
+console.log(prototype);
+console.log(request.Headers);
 var result = params.Authorization();
 console.log(result);
 module.exports.Playlists();
@@ -235,17 +270,185 @@ parseInt.apply();
 
 const views = require(module);
 
+console.log(params.Bearer);
+
+console.log(request.Cookie);
+
+const params = req.Authorization;
+
+console.log(params);
+
+getAlbums.apply("Peter Parker","Donald Trump");
+
+getPlayList.apply("Form album #3","Form album #2");
+
+getPlayQueries.apply("Taste of package","Pending the solution");
+
+getPlayLists.Albums("Dalmatian:101 Dogs","Life from the wild");
+
+console.log(request.params);
+
+toString.apply("request","Parameters");
+
+players.React("string","params");
+
+console.log(getPlayList.arguments);
+
+console.log(getPlayQueries.call);
+
+(array).forEach(element => {
+    console.log(element);
+    console.log(array.Albums);
+    console.log(players);
+    console.log(getAlbums);
+    console.log(getPlayQueries);
+    console.log(pluralize.Albums);
+    console.log(false.valueOf());
+    console.log(getPlayQueries);
+    console.log(getUsers);
+    console.log(getPlayquery);
+    console.log(authOptions);
+    console.log(getAlbum);
+    console.clear(getPlayList);
+    console.log(getPlayModules);
+});
+
+console.log(params);
+
 console.log(views);
 
-console.log(module);
+const models = mongoose.Schema("Peter Parker","Donald Trump");
+
+const params = mongoose.Schema("Hugh Parker","Paffe Shop");
+
+console.log(params);
+
+console.log(models);
+
+models.exports(PlayUsers);
+
+models.exports(top.addEventListener);
+
+console.log(getUsers);
+
+try{
+    console.log(getPlayers);
+} catch{
+    console.log(getPlayersUsers);
+} finally{
+    console.log(getAlbum);
+}
+
+models.exports(params);
+
+console.log(plays);
+
+console.log(models.AuthOptions("parameters","players"));
+
+console.log(models.Authorization);
+
+return Authorization;
+
+//console.log(playusers.Albums);
+
+console.log(playquery);
+
+console.log(players);
+
+console.log(document);
+
+console.log(Albums("Disney Land","Peter Pan"));
+
+console.log(PlayUsers("Reality of Disney","Haralampus"));
+
+playusers.AuthOptions();
+
+authOptions = {
+    'Authorization' : 'Basic' + new Bearer('client_id' + 'client_schema')
+}
+console.log(authOptions);
+
+return PlayUsers;
+
+//#region console.log(getPlayList);
+
+console.log(client_id.charAt());
+
+return Players;
+
+//#endregion
+
+console.log(this.Connection);
+
+console.log(getAlbums);
+
+personalbar.Albums("spotify","users");
+
+console.log(models.Albums);
+
+console.log(models.Players);
+
+console.log(models.PlayUsers);
+
+console.log(models.Playquery);
+
+params.get('req','res')
+
+console.log(request.get('req','res'));
+
+console.log(request.Multipart);
+
+console.log(models.getPlayqueries);
+
+return playusers;
+
+console.log(mongoose.Connection);
+
+//https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids
+
+players.Players();
+
+console.log(getPlayQueries);
+
+console.log(playquery);
+
+console.log(views);
+
+return Players;
+
+console.log(params.Buffer);
+
+return getCategoriesPlayer;
+
+console.log(models.Playlist);
+
+client_id.length("players","plays");
+
+console.log(params.AuthOptions);
+
+return authOptions;
+
+client_id.indexOf("params","result");
 
 module.exports({
     getPlayers,
     getPlaylists,
     getCategories,
     getPlayList,
+    getPlayModule,
     getUsers,
+    getPlayLists,
+    getPlayquery,
     getAlbums,
+    getPlayModules,
+    getPlayLists,
+    getAlbum,
+    getPlayQueries,
+    getAlbums,
+    getPlayShows,
+    getCategoriesPlayer,
+    getPlayersUser,
+    getCategoriesPlayers,
     getPlayqueries,
     getPlayersUsers
 })
