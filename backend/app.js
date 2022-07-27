@@ -20,9 +20,21 @@ mongoose.connect(process.env.MONGO_URI)
 
 app.get('/', (req, res) => {
   res.send('Hello World 443433!')
-  
+  res.send('Hello World!')
 })
 
 app.get('/categories', getCategories)
+
+app.get('/categories/:categoryId', getUsers)
+
+app.get('/categories/:categoryId', getAlbums)
+
+app.get('/categories/:categoryId', getPlayersUsers)
+
+app.get('/categories/:categoryId', getPlayQueries)
+
+app.get('/categories/:categoryId', getPlayers)
+
+app.get('/categories/:categoryId', getPlayLists)
 
 app.get('/categories/:categoryId', getPlayList)
