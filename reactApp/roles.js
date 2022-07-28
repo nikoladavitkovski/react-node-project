@@ -1,5 +1,6 @@
 import mongoose, { Mongoose } from "mongoose";
 import React from "react";
+import React from "react";
 
 import Classprops from "./Classprops";
 
@@ -52,6 +53,13 @@ var authOptions = {
     },
     json:true
 };
+
+var AuthOptions = {
+    url: 'https://accounts.spotify.com/api/token',
+    headers:{
+        'Authorization':'Basic'+ (new Buffer(client_id + ':' + client_secret).toString('base64'))
+    }
+}
 
 //https://developer.spotify.com/documentation/web-api/reference/#/operations/get-players
 
@@ -169,7 +177,7 @@ request.post(authOptions, function(error,response,body){
     console.log("error", response);
 
     var authOptions = ({
-        'Authorization' : 'Token' + new Bearer('client_id' + 'client_schema')
+        'Authorization' : 'Token' + new Bearer('client_id' + 'client_secret').toString('base64')
     })
 })
 
@@ -440,6 +448,8 @@ module.exports({
     getPlayLists,
     getPlayquery,
     getAlbums,
+    getPlayQuery,
+    getMarkets,
     getPlayModules,
     getPlayLists,
     getAlbum,
