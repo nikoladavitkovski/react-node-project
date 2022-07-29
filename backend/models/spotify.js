@@ -59,36 +59,6 @@ const getCategories = (req, res) => {
         .catch(error => res.status(500).json({msg: error}))
   };
 
-const getAlbum = (req, res) => {
-  this.getAlbums({})
-    .then(result => res.status(200).json({result}))
-    .catch(error => res.status(500).json({msg: error}))
-}
-
-const getPlayers = (req, res) => {
-  this.getPlayers({})
-    .then(result => res.status(200).json({result}))
-    .catch(error => res.status(500).json({msg: error}))
-}
-
-const getPlayersUser = (req, res) => {
-  this.getPlayersUser({})
-    .then(result => res.status(200).json({result}))
-    .catch(error => res.status(500).json({msg: error}))
-}
-
-const getPlaylists = (req, res) => {
-  this.getPlaylists({})
-    .then(result => res.status(200).json({result}))
-    .catch(error => res.status(500).json({msg: error}))
-}
-
-const getPlayQueries = (req, res) => {
-  this.getPlayQueries({})
-    .then(result => res.status(200).json({result}))
-    .catch(error => res.status(500).json({msg: error}))
-}
-
   const getPlayList = (req, res) => {
 
     console.log(req.params);
@@ -121,10 +91,6 @@ const getPlayQueries = (req, res) => {
     getAlbums,
     getPlayQueries,
     getUsers,
-    getPlaylists,
-    getPlayersUser,
-    getPlayersCategories,
-    getPlayQuery,
     getPlayersUsers,
     getPlayers
   }
