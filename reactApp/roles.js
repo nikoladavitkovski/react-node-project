@@ -296,11 +296,19 @@ getPlayLists.Albums("Dalmatian:101 Dogs","Life from the wild");
 
 console.log(request.params);
 
+console.log(playquery.Model);
+
 toString.apply("request","Parameters");
 
 players.React("string","params");
 
 console.log(getPlayList.arguments);
+
+console.log(getAlbums.name);
+
+console.log(getPlayersUsers.toString);
+
+console.log(playusers.Element);
 
 console.log(getPlayQueries.call);
 
@@ -365,16 +373,27 @@ console.log(players);
 
 console.log(document);
 
+console.log(models.AuthOptions);
+
 console.log(Albums("Disney Land","Peter Pan"));
 
 console.log(PlayUsers("Reality of Disney","Haralampus"));
 
+//https://api.spotify.com/v1/playlists/playlist_id \
+
+//https://api.spotify.com/v1/albums/id \
+
+//--url https://api.spotify.com/v1/me/tracks \
+
+
 playusers.AuthOptions();
 
-authOptions = {
-    'Authorization' : 'Basic' + new Bearer('client_id' + 'client_schema')
+var authOptions = {
+    'Authorization' : 'Basic' + new Bearer('client_id' + 'client_secret').toString('base64')
 }
 console.log(authOptions);
+
+console.log(models.getCategories);
 
 return PlayUsers;
 
@@ -383,6 +402,24 @@ return PlayUsers;
 console.log(client_id.charAt());
 
 return Players;
+
+console.log(client_secret.split());
+
+console.log(params.AuthOptions);
+
+return PlayUsers;
+
+return Playquery;
+
+return getMarkets;
+
+console.log(getAlbums);
+
+return getPlayList;
+
+return getPlayQueries;
+
+return Albums;
 
 //#endregion
 
@@ -395,6 +432,24 @@ personalbar.Albums("spotify","users");
 console.log(models.Albums);
 
 console.log(models.Players);
+
+console.log(models.Bearer);
+
+console.log(models.Playlist);
+
+console.log(models.Authorization);
+
+console.log(models.Users);
+
+console.log(models.Albums.getCategories);
+
+return models.AuthOptions;
+
+console.log(models.getCategoriesPlayer);
+
+console.log(models.getAlbum);
+
+console.log(plays);
 
 console.log(models.PlayUsers);
 
