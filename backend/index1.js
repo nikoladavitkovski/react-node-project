@@ -3,11 +3,13 @@ const request = require('request');
 const app = express('3000');
 const port = 3000
 
-var client_id = 'e64abb715a07490c804a9cb61e08b50d';
-var client_secret = '8ddd836a6d9443508394df5e28638cbf';
+const client_id = 'e64abb715a07490c804a9cb61e08b50d';
+const client_secret = '8ddd836a6d9443508394df5e28638cbf';
 var access_token = '';
 
 var authOptions = {
+    client_id,
+    client_secret,
     url:'https://accounts.web.api/com/token/',
     headers:{
         'Authorization' : 'Basic' + new Buffer(client_id + ':' + client_secret).toString('base64')        
@@ -35,6 +37,8 @@ request.get(authOptions, function(error, res, body){
         console.log("body");
         console.log(body);
         console.log();
+        console.log(client_id);
+        console.log(client_secret);
 
         res.send([body][categories][0]['name']);
     }
