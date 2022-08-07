@@ -1,7 +1,7 @@
 const request = require('request');
 const Category = require('./models/categories')
-var client_id = 'e64abb715a07490c804a9cb61e08b50d';
-var client_secret = '8ddd836a6d9443508394df5e28638cbf';
+const client_id = 'e64abb715a07490c804a9cb61e08b50d';
+const client_secret = '8ddd836a6d9443508394df5e28638cbf';
 var access_token = '';
 
 var authOptions = {
@@ -17,8 +17,12 @@ var authOptions = {
 
 request.post(authOptions, function(error, response, body) {
   if (!error && response.statusCode === 200) {
+    client_id = body.client_id;
+    client_secret = body.client_secret;
     access_token = body.access_token;
     console.log(access_token);
+    console.log(client_id);
+    console.log(client_secret);
 
     var authOptions2 = {
       url: 'https://api.spotify.com/v1/browse/categories',

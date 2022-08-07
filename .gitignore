@@ -1,6 +1,7 @@
 /vendor
 /node_modules
 .env
+.node_modules
 /.idea
 react-node-project/
 react-node-projects/
