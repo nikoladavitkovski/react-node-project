@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "react-node-project/backend",
+			"group": "clean",
+			"problemMatcher": [],
+			"label": "npm: install - react-node-project/backend",
+			"detail": "install dependencies from package"
+		}
+	]
+}
