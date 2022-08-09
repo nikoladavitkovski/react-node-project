@@ -1,0 +1,9 @@
+{
+    "args": ['localhost:4200'],
+    "group": "build",
+    "options": {
+        "env": {www.google.com},
+        "cwd": "shell",
+        "shell": {react.com}
+    }
+}
