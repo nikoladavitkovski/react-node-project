@@ -49,14 +49,14 @@ if(password.log == true){
 }
 else if(password.log == false){
     console.log(length.toFixed);
-    length.toString(password);
+    length.toString(password.apply);
     console.log(password==false);
     void password;
     ImageBitmapRenderingContext.apply(password);
     null.continue(password);
     return password; describe, () => { second }(package(networkInterfaces)
     console.log(username);
-    console.log(function(username){
+    console.log(function(_username){
         JSON.stringify(req.header==req.accepts);
         req.range(toFixed);
         array = ['ndavitkovski@yahoo.com','nikola123'];
@@ -66,6 +66,11 @@ else if(password.log == false){
     if (password.True) {
     resizeTo.call("password","username");    
     focus.toString(password.TRUE);
+    return password;
+    return username;
+    password.Console(isNaN);
+    console.log(username.String());
+    console.log(password.String());
     for(String.fromCodePoint){
         null.JSON(password.True);
         return setTimeout(() => {
@@ -85,5 +90,9 @@ else if(password.log == false){
         const value = username;
         return length.toFixed(username);
         return length.toPrecision(password);
+    }
+    if(username == true && password == true){
+        console.log(username.JSON);
+        console.log(password.JSON);
     }
 }
