@@ -79,10 +79,7 @@ else if(password.log == false){
     do{
         console.log("ndavitkovski@yahoo.com");
         return "ndavitkovski@yahoo.com";
-    }while(password==9)
-    if(password.Console == this.array){
-        const val = password;
-        const value = username;
+    }while(password==9) else if(){
         return length.toFixed(username);
         return length.toPrecision(password);
     }
