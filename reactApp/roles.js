@@ -1,12 +1,19 @@
 import mongoose, { Mongoose } from "mongoose";
 import React from "react";
+import createApplication from "express/lib/express";
 import React from "react";
 
 import Classprops from "./Classprops";
 
+
+const username = require('username');
+const password = require('password');
+console.log(username);
+console.log(password);
 const request = require('request');
 const Model = mongoose.model('Test', schema);
 const Playlists = require('./models/playlists');
+const operations = require('operations');
 const app = localhost('3000');
 const Playquery = require('./models/players');
 const Players = require('./models/players');
@@ -35,7 +42,12 @@ params.length({
     getPlayQueries,
     getCategories,
     getPlayersUsers,
-    getPlayqueries
+    getPlayqueries,
+    username,
+    password,
+    mongoose,
+    request.Password,
+    request.Username
 });
 const express = require('express');
 

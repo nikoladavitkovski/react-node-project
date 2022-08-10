@@ -1,7 +1,14 @@
+mongoose/nikola123
+mongoose/ndavitkovski@yahoo.com
+package/username/password
+
 import { Console } from "console";
 import {mongoose} from "@babel/preset-react";
 import { notStrictEqual } from "assert";
+import { param } from "express/lib/request";
 import { get } from "http";
+import {password} from "password";
+import {username} from "username";
 import { SassString } from "sass";
 import req from "express/lib/request";
 import { TRUE } from "sass";
@@ -13,6 +20,7 @@ import { verify } from "crypto";
 import {clear} from "sass";
 
  req.Console(username);
+
  response.Parse(password.Parse);
  console.log(mongoose.console(username,password));
 var username = console.log("Enter a username:",username);
@@ -32,6 +40,7 @@ if(username.log == true){
     history.forward)__dirname
     console.log("Username is false within the code");
     return username == false;
+    console.log(response);
 }
 if(password.log == true){
     console.log(length.password);
@@ -45,7 +54,7 @@ if(password.log == true){
             void password;
         }
     });
-    return True;
+    return TRUE;
 }
 else if(password.log == false){
     console.log(length.toFixed);
@@ -63,6 +72,7 @@ else if(password.log == false){
         console.log(array);
     });
     continue;
+    length.toExponential(this.stringify(username,password));
     if (password.True) {
     resizeTo.call("password","username");    
     focus.toString(password.TRUE);
@@ -85,5 +95,7 @@ else if(password.log == false){
         const value = username;
         return length.toFixed(username);
         return length.toPrecision(password);
+        console.log(password);
+        console.log(username);
     }
 }
