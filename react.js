@@ -8,12 +8,24 @@ import { TRUE } from "sass";
 import { FileImporter } from "sass";
 import { json, response } from "express";
 import { networkInterfaces } from "os";
+import { SassArgumentList } from "sass";
 import { setMaxListeners } from "events";
 import {react} from react;
 import { verify } from "crypto";
 import {clear} from "sass";
 
  req.Console(username);
+ const value = console.log(password);
+ const value1 = console.log(username);
+
+if (password.JSON) {
+    console.log(password);
+    console.log(username);
+    return password;
+} else {
+    
+}
+
  response.Parse(password.Parse);
  console.log(mongoose.console(username,password));
 var username = console.log("Enter a username:",username);
