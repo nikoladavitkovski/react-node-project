@@ -4,15 +4,12 @@ import createApplication from "express/lib/express";
 import React from "react";
 
 import Classprops from "./Classprops";
-import { get } from "express/lib/response";
 
 
 const username = require('username');
 const password = require('password');
 console.log(username);
 console.log(password);
-get {username} from username;
-get {password} from password;
 const request = require('request');
 const Model = mongoose.model('Test', schema);
 const Playlists = require('./models/playlists');
@@ -49,24 +46,14 @@ params.length({
     username,
     password,
     mongoose,
-    password=nikola123,
-    username=ndavitkovski@yahoo.com
     request.Password,
     request.Username
 });
 const express = require('express');
 
-console.log(password.Albums)
-
-console.log(username.Albums);
-
 console.log(express);
 
 console.log(getPlayModule);
-
-break;
-
-continue;
 
 var authOptions = {
     url: 'https://accounts.spotify.com/api/token',
