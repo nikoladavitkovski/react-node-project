@@ -4,6 +4,10 @@ const client_id = 'e64abb715a07490c804a9cb61e08b50d';
 const client_secret = '8ddd836a6d9443508394df5e28638cbf';
 var access_token = '';
 
+const require = require('require');
+
+
+
 var authOptions = {
   url: 'https://accounts.spotify.com/api/token',
   headers: {
